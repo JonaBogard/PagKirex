@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Bariol";
+    src: local("Bariol"),
+    url("Font/Bariol_Light.otf") format("truetype");
+}
+body{
+    margin: 0px;
+    pad: 0px;
+    background: rgb(187,186,206);
+    background: linear-gradient(0deg, rgba(187,186,206,1) 0%, rgba(190,138,213,1) 20%, rgba(39,0,75,1) 80%);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+}
+#spi{
+    background-image: url(Sources/IconK.png);
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    border-color: transparent;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10%;
+}
+#cf{
+    height: auto;
+    border-bottom: 2px solid #BBBACE;
+    background-color: #27004B;
+    margin-top: -10px;
+}
+#Foot{
+    border-top: 2px solid #BBBACE;
+    background: #BBBACE;
+    width: 100%;
+}
