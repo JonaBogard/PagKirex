@@ -10,6 +10,11 @@ function initMap() {
     center: { lat: -34.397, lng: 150.644 },
     mapTypeControl: false,
   });
+
+  var marker = new google.maps.Marker({
+    position: center,
+    map: map
+  });
   geocoder = new google.maps.Geocoder();
 
   const inputText = document.createElement("input");
